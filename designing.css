@@ -1,0 +1,38 @@
+body {
+text-align: center;
+background: rgb(131,58,180);
+background: radial-gradient(circle, rgba(131,58,180,1) 0%, rgba(252,34,34,1) 35%, rgba(252,176,69,1) 100%););
+}
+h1 {
+font-size: 30px;
+}
+#bio {
+padding: 20px;
+font-size; 20px;
+text-align: center;
+color: aquamarine;
+}
+img {
+border-radius: 50%;
+height: 200px;
+}
+.menu {
+list-style: none;
+font-family: cursive;
+float: right;
+top: 10px;
+right: 30px;
+cursor: pointer;
+color: aqua;
+}
+.links:hover {
+background-color: #07DEED;
+font-size: 25px;
+}
+img {
+transition: transform .2s;
+border: 10px solid #AAAAAA;
+}
+img:hover {
+transform: scale(0.9);
+}
